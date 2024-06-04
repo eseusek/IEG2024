@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+package Log;
+
+service LogService {
+  rpc Log (LogMessage) returns (google.protobuf.Empty);
+}
+
+message LogMessage {
+  string message = 1;
+  string exception = 2;
+  LogLevel level = 3;
+}
+
+enum LogLevel {
+  Trace = 0;
+  Debug = 1;
+  Info = 2;
+  Warn = 3;
+  Error = 4;
+  Fatal = 5;
+}
+
