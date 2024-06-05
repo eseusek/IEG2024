@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MeiShop.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace MeiShop.Controllers
 {
@@ -7,11 +8,30 @@ namespace MeiShop.Controllers
     [ApiController]
     public class ProductListController : ControllerBase
     {
+        private readonly HttpClient _httpClient;
+
+        public ProductListController(IHttpClientFactory httpClientFactory)
+        {
+            _httpClient = httpClientFactory.CreateClient();
+        }
 
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IEnumerable<Product>> Get()
         {
-            return new string[] { "Windows Phone", "BlackBerry", "iPhone" };
+            var localProducts = await GetProductsFromService("http://localhost:5001/api/products");
+            var ftpProducts = await GetProductsFromService("http://localhost:5001/api/ftpProducts");
+
+            var allProducts = new List<Product>();
+            allProducts.AddRange(localProducts);
+            allProducts.AddRange(ftpProducts);
+
+            return allProducts;
+        }
+
+        private async Task<IEnumerable<Product>> GetProductsFromService(string url)
+        {
+            var response = await _httpClient.GetStringAsync(url);
+            return JsonConvert.DeserializeObject<IEnumerable<Product>>(response);
         }
     }
 }
