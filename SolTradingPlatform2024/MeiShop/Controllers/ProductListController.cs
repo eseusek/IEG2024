@@ -18,12 +18,12 @@ namespace MeiShop.Controllers
         [HttpGet]
         public async Task<IEnumerable<Product>> Get()
         {
-            var localProducts = await GetProductsFromService("http://localhost:5001/api/products");
-            var ftpProducts = await GetProductsFromService("http://localhost:5001/api/ftpProducts");
+            var localProducts = await GetProductsFromService("https://localhost:7172/api/products");
+            //var ftpProducts = await GetProductsFromService("https://localhost:7167/api/ftpProducts");
 
             var allProducts = new List<Product>();
             allProducts.AddRange(localProducts);
-            allProducts.AddRange(ftpProducts);
+            //allProducts.AddRange(ftpProducts);
 
             return allProducts;
         }
