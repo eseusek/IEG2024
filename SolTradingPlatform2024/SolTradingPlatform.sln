@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeiShop", "MeiShop\MeiShop.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEGEasyCreditcardService", "IEGEasyCreditcardService\IEGEasyCreditcardService.csproj", "{9E6ED9F0-D1FE-4377-9D26-7CEAB07E2D95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsService", "ProductsService\ProductsService.csproj", "{2CFD77AA-DFFC-409A-92D0-11903FA267BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsFTPService", "ProductsFTPService\ProductsFTPService.csproj", "{0390456C-38E4-4762-AC21-739CA9AB867F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9E6ED9F0-D1FE-4377-9D26-7CEAB07E2D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E6ED9F0-D1FE-4377-9D26-7CEAB07E2D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E6ED9F0-D1FE-4377-9D26-7CEAB07E2D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CFD77AA-DFFC-409A-92D0-11903FA267BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFD77AA-DFFC-409A-92D0-11903FA267BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFD77AA-DFFC-409A-92D0-11903FA267BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFD77AA-DFFC-409A-92D0-11903FA267BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0390456C-38E4-4762-AC21-739CA9AB867F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0390456C-38E4-4762-AC21-739CA9AB867F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0390456C-38E4-4762-AC21-739CA9AB867F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0390456C-38E4-4762-AC21-739CA9AB867F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
