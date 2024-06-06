@@ -1,0 +1,41 @@
+### Theoretische Überlegungen zu einem PaymentService-Broker
+
+### 1. Konzepte und Muster
+
+#### Service Broker Pattern
+Das **Service Broker Pattern** wird verwendet, um die Komplexität von Service-Interaktionen zu reduzieren, indem ein zentrales Vermittlungsmodul geschaffen wird. Der Broker nimmt Anfragen von Shops entgegen, leitet sie an die entsprechenden Payment-Services weiter und verwaltet die Kommunikation und Fehlerbehandlung.
+
+**Hauptmerkmale:**
+- **Abstraktion der Zahlungsdienste:** Der Broker bietet eine einheitliche Schnittstelle für verschiedene Payment-Services.
+- **Routing und Vermittlung:** Dynamische Auswahl des geeigneten Payment-Services basierend auf bestimmten Kriterien (z.B. Verfügbarkeit, Kosten, geografische Lage).
+- **Fehlerbehandlung:** Zentralisierte Verwaltung von Fehlern und Wiederholungsmechanismen.
+- **Erweiterbarkeit:** Einfache Integration neuer Payment-Services ohne Änderungen an den Shops.
+
+#### Canonical Data Model
+Das **Canonical Data Model** (CDM) standardisiert die Datenformate zwischen verschiedenen Systemen. Der Broker verwendet ein einheitliches Datenmodell zur Kommunikation mit den Shops und Payment-Services, was die Integration und Datenkonsistenz vereinfacht.
+
+### 2. Architektur des PaymentService-Brokers
+
+#### Komponenten
+- **API Gateway:** Bietet eine einheitliche Schnittstelle für die Shops.
+- **PaymentService-Broker:** Kernkomponente, die die Anfragen verarbeitet, an die richtigen Payment-Services weiterleitet und die Antworten zurückgibt.
+- **Payment-Adapters:** Adapter für die Kommunikation mit verschiedenen Payment-Services (z.B. PayPal, Stripe, Kreditkartenanbieter).
+- **Error Handling und Logging:** Zentrale Fehlerbehandlung und Protokollierung.
+
+#### Kommunikationsfluss
+1. Ein Shop sendet eine Zahlungsanforderung an den API Gateway.
+2. Der PaymentService-Broker empfängt die Anfrage und transformiert die Daten in das Canonical Data Model.
+3. Basierend auf vordefinierten Regeln leitet der Broker die Anfrage an den entsprechenden Payment-Adapter weiter.
+4. Der Payment-Adapter kommuniziert mit dem Payment-Service.
+5. Das Ergebnis der Zahlung wird zurück an den Broker gesendet.
+6. Der Broker verarbeitet das Ergebnis, führt ggf. Fehlerbehandlung durch und sendet die Antwort an den Shop.
+
+### 3. Dezentrales Datenmanagement
+Jeder Payment-Adapter verwaltet seine eigenen Verbindungsdetails und Konfigurationsdaten, was eine dezentrale Datenhaltung ermöglicht. Dies erhöht die Skalierbarkeit und Flexibilität des Systems.
+
+### 4. Zusatzliche Patterns
+
+#### Enterprise Integration Patterns
+- **Message Router:** Leitet Nachrichten basierend auf definierten Regeln an den richtigen Empfänger weiter.
+- **Retry Pattern:** Automatische Wiederholung fehlgeschlagener Anfragen.
+- **Circuit Breaker:** Verhindert das dauerhafte Senden von Anfragen an einen fehlerhaften Service.
