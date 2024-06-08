@@ -7,8 +7,8 @@ Denkbar wären zum Beispiel folgende Microservices:
 - Shopping-Microservice
 - Bezahl-Microservice
 - Rating-Microservice
-- BauernladenAProduktkatalog-Microservice
-- WeingutBProduktkatalgo-Microservice
+- Bauernladen-Produktkatalog-Microservice
+- Weingut-Produktkatalog-Microservice
 - Storno-Microservice
 - Währungsrechner-Microservice
 
