@@ -18,6 +18,15 @@ Nehmen Sie in Ihrer Ausführung auch Bezug auf die im Artikel „Microservices a
 
 **Teambezeichnung:** BestProjectTeamInTown
 - [x] Aufgabe 1
+- [x] Aufgabe 2
+- [x] Aufgabe 3
+- [x] Aufgabe 4
+- [ ] Aufgabe 5
+- [ ] Aufgabe 6
+- [ ] Aufgabe 7
+- [x] Aufgabe 8
+- [ ] Aufgabe 9
+- [ ] Aufgabe 10
 ### Aufgabe 1 (25 Punkte) (Emanuel) -- Done
 **a)** 
 Analyse: Machen Sie sich mit dem Ausgangs-Source-Code „SolTradingPlatform (ohne Polly)“ vertraut. Publizieren Sie die beiden Services „MeiShop“ und „IEGEasyCreditCardService“ in die Microsoft Azure Cloud und testen Sie die Funktionalität. Alternativ können Sie die Projekte natürlich auch onpremise hosten (0 Punkte)
