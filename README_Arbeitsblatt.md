@@ -58,9 +58,9 @@ https://microservices.io/patterns/communication-style/messaging.html
 [AUFGABE-4](Doku/Arbeitsblatt/4.md)
 
 ### Aufgabe 5 (10 Punkte) (Thomas) -- In Arbeit
-Schreiben Sie ein zusätzliches „Paymentservice“. Dieses Payment-Service soll sowohl JSON, XML-Nachrichten als auch Nachrichten im Format CSV verarbeiten und erzeugen können. Orientieren Sie sich an dem Pattern - HTTP Content Negotiation in REST APIs (restfulapi.net)
+Schreiben Sie ein zusätzliches „Paymentservice“. Dieses Payment-Service soll sowohl JSON, XML-Nachrichten als auch Nachrichten im Format CSV verarbeiten und erzeugen können. Orientieren Sie sich an dem Pattern - HTTP Content Negotiation in REST APIs (restfulapi.net) (10 Punkte)
 
-(10 Punkte)
+[AUFGABE-5](Doku/Arbeitsblatt/5.md)
 
 ### Aufgabe 6 (10 Punkte) (Andreas) -- In Arbeit
 (theoretische) Überlegungen zu einem PaymentService-Broker. Dieses Service soll zwischen Shops und Payment-Services „vermitteln“.
@@ -79,9 +79,7 @@ Machen Sie sich mit dem Begriff OData vertraut. Überlegen und implementieren Si
 ### Aufgabe 9 (10 Punkte) (Hannes) -- In Arbeit
 Machen Sie sich mit dem Begriff SAGA-Pattern vertraut. Überlegen und implementieren Sie ein mögliches SAGA-Pattern Szenario(Service & Client)-Szenario 
 
-Umgang mit Ausfallsicherheit –Stichwort: Design for failure / Resilient Software Design
-
-(10 Punkte)
+Umgang mit Ausfallsicherheit –Stichwort: Design for failure / Resilient Software Design (10 Punkte)
 
 ### Aufgabe 10 (10 Punkte) (Andreas) -- In Arbeit
 Machen Sie sich mit dem Begriff „Open Data“ vertraut und beschreiben Sie diesen in einigen wenigen Sätzen. Beschreiben Sie außerdem mögliche Anwendungsfälle im Zusammenhang mit der Handelsplattform
