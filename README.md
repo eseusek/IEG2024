@@ -9,7 +9,7 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 - [ ] Aufgabe 1 (Emanuel)
 - [ ] Aufgabe 2 (Emanuel)
 - [ ] Aufgabe 3 (Thomas)
-- [ ] Aufgabe 4 (Emmanuel)
+- [x] Aufgabe 4 (Emmanuel)
 - [ ] Aufgabe 5 (Hannes)
 - [ ] Aufgabe 6 (Thomas/Andreas)
 - [ ] Aufgabe 7 (Andreas)
@@ -29,6 +29,8 @@ Implementieren Sie konkret einen Microservice, der aus Skalierungs- und Redundan
 
 ### 4. Implementierung II - Secrets (Emmanuel):
 Implementieren Sie konkret einen Microservice, der für die Kommunikation mit anderen Microservices „Secrets“ benötigt. Beschreiben Sie, wie „Secrets“ bzw. Tokens in einer Microservice-Umgebung verwaltet werden können.
+
+[AUFGABE-4](Doku/Projekt/4.md)
 
 ### 5. Implementierung III – Asynchrones Messaging (Hannes):
 Implementieren Sie konkret einen Microservice, der asynchrones Messaging einsetzt. Beschreiben Sie die Möglichkeiten bzw. Vor- und Nachteile der asynchronen Kommunikation im Zusammenhang mit Microservices.

@@ -1,4 +1,6 @@
-namespace ProductsService
+using SecretManagementService.Repositories;
+
+namespace SecretManagementService
 {
     public class Program
     {
@@ -9,9 +11,12 @@ namespace ProductsService
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddHttpClient();
+            builder.Services.AddSingleton<ISecretRepository, SecretRepository>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 

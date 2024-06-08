@@ -20,6 +20,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogService", "LogService\LogService.csproj", "{8AC4EDF6-7802-43F6-A34F-CDBAF46B76B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{F89C7CDE-7C62-4052-89D9-D14A73149307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretManagementService", "SecretManagementService\SecretManagementService.csproj", "{4CAB0AE6-035C-4913-A117-540CB0D94221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretsConsumerService", "SecretsConsumerService\SecretsConsumerService.csproj", "{A8C37C28-E116-4F08-B8EF-69549346132E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{5660E432-A090-4A5C-9FEF-F7056D8B1184}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,14 @@ Global
 		{F89C7CDE-7C62-4052-89D9-D14A73149307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F89C7CDE-7C62-4052-89D9-D14A73149307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F89C7CDE-7C62-4052-89D9-D14A73149307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAB0AE6-035C-4913-A117-540CB0D94221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAB0AE6-035C-4913-A117-540CB0D94221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAB0AE6-035C-4913-A117-540CB0D94221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAB0AE6-035C-4913-A117-540CB0D94221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C37C28-E116-4F08-B8EF-69549346132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C37C28-E116-4F08-B8EF-69549346132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C37C28-E116-4F08-B8EF-69549346132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C37C28-E116-4F08-B8EF-69549346132E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

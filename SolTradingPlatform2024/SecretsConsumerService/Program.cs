@@ -1,4 +1,5 @@
-namespace ProductsService
+using SecretsConsumerService.Services;
+namespace SecretsConsumerService
 {
     public class Program
     {
@@ -9,9 +10,12 @@ namespace ProductsService
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddHttpClient();
+            builder.Services.AddSingleton<ISecretService, SecretService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 
