@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  secret-management-service:
+    build:
+      context: ./SecretManagementService
+    ports:
+      - "5001:80"
+
+  secrets-consumer-service:
+    build:
+      context: ./SecretsConsumerService
+    depends_on:
+      - secret-management-service
+    ports:
+      - "5000:80"
