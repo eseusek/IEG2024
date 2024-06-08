@@ -11,7 +11,7 @@
 
         public async Task<string> GetSecretAsync(string key)
         {
-            var response = await _httpClient.GetAsync($"https://localhost:7172/secrets/{key}");
+            var response = await _httpClient.GetAsync($"http://localhost:5265/api/Secrets/{key}");
             response.EnsureSuccessStatusCode();
             return await response.Content.ReadAsStringAsync();
         }

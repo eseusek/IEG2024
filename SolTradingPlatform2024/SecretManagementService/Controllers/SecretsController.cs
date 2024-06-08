@@ -3,8 +3,8 @@ using SecretManagementService.Repositories;
 
 namespace SecretManagementService.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
+    [ApiController]    
     public class SecretsController : ControllerBase
     {
         private readonly ISecretRepository _secretRepository;

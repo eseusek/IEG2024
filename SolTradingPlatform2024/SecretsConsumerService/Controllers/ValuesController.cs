@@ -3,8 +3,8 @@ using SecretsConsumerService.Services;
 
 namespace SecretsConsumerService.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class ValuesController : ControllerBase
     {
         private readonly ISecretService _secretService;
