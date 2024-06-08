@@ -21,7 +21,7 @@ Nehmen Sie in Ihrer Ausführung auch Bezug auf die im Artikel „Microservices a
 - [x] Aufgabe 2 (Emmanuel)
 - [x] Aufgabe 3 (Thomas)
 - [x] Aufgabe 4 (Emanuel)
-- [ ] Aufgabe 5 (Thomas)
+- [x] Aufgabe 5 (Thomas)
 - [ ] Aufgabe 6 (Andreas)
 - [ ] Aufgabe 7 (Hannes)
 - [x] Aufgabe 8 (Emmanuel)
