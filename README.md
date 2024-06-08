@@ -1,36 +1,39 @@
-IEG Microservices - Projekt - most WanTED 2024
-Projektübersicht
+# IEG Microservices - Projekt - most WanTED 2024
+
+## Projektübersicht
+
 Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flexibel erweiterbare, austauschbare und skalierbare Microservice-Architektur als Erweiterung zur bereits bestehenden Handelsplattform zum Themenbereich „most wanTED“ zu designen, mit Microsoft ASP.NET Core zu entwickeln und in der Microsoft Azure Cloud zu betreiben. „most wanTED“ soll den beteiligten Personen und Organisationen der Handelsplattform (Kunde, Lieferant, Kreditkartenunternehmen) bei der Auswahl von Aspekten wie Produktauswahl, Produktplatzierung, Bezahlvarianten, Benutzeroberflächen, Liefervarianten und weiteren unterstützen.
 
-Aufgabenverteilung
-1. Makro- und Mikro-Architektur (Emanuel):
+## Aufgabenverteilung
+
+### 1. Makro- und Mikro-Architektur (Emanuel):
 Beschreiben Sie die Makro- und Mikro-Architektur Ihrer Lösung zum Thema „most wanTED“.
 
-2. Design (Emanuel):
+### 2. Design (Emanuel):
 Entwerfen Sie die einzelnen beteiligten Microservices. Verwenden Sie dazu den Ansatz „Domain Driven Design“.
 
-3. Implementierung I – Discovery & Configuration (Thomas):
+### 3. Implementierung I – Discovery & Configuration (Thomas):
 Implementieren Sie konkret einen Microservice, der aus Skalierungs- und Redundanzgründen mehrfach deployed werden kann, und einen weiteren Microservice, der die Dienste dieses mehrfach vorhandenen Microservice nutzt.
 
-4. Implementierung II - Secrets (Emmanuel):
+### 4. Implementierung II - Secrets (Emmanuel):
 Implementieren Sie konkret einen Microservice, der für die Kommunikation mit anderen Microservices „Secrets“ benötigt. Beschreiben Sie, wie „Secrets“ bzw. Tokens in einer Microservice-Umgebung verwaltet werden können.
 
-5. Implementierung III – Asynchrones Messaging (Hannes):
+### 5. Implementierung III – Asynchrones Messaging (Hannes):
 Implementieren Sie konkret einen Microservice, der asynchrones Messaging einsetzt. Beschreiben Sie die Möglichkeiten bzw. Vor- und Nachteile der asynchronen Kommunikation im Zusammenhang mit Microservices.
 
-6. Qualität & Monitoring (Thomas/Andi):
+### 6. Qualität & Monitoring (Thomas/Andi):
 Entwerfen Sie eine Teststrategie und eine Monitoring-Infrastruktur für das „most wanTED“ Projekt. Behandeln Sie im Bereich Test vor allem Integrationstest und Last- und Performancetests.
 
-7. Alternative „Produktempfehlung“ (Andi):
+### 7. Alternative „Produktempfehlung“ (Andi):
 Überlegen und beschreiben Sie die Möglichkeit des Einsatzes einer Workflow-Engine im Zusammenhang mit der Möglichkeit, „sehr gute Produktplatzierung“ käuflich zu erwerben.
 
-8. Integration eines spezifischen Geschäftsprozesses (Hannes):
+### 8. Integration eines spezifischen Geschäftsprozesses (Hannes):
 Entwickeln und implementieren Sie ein Konzept für die Integration eines spezifischen Geschäftsprozesses im Zusammenhang mit dem Projekt „most wanTED“ unter dem Einsatz von KI oder Low-Code/No-Code.
 
-9. Aufbereitung und Präsentation (Alle):
+### 9. Aufbereitung und Präsentation (Alle):
 Bereiten Sie die Ergebnisse der Projektarbeit auf und präsentieren Sie diese.
 
-10. Funktionierende Gesamtlösung (Alle):
+### 10. Funktionierende Gesamtlösung (Alle):
 Erstellen Sie eine funktionierende Gesamtlösung des Projekts „most wanTED“.
 
-Bonus: (Emmanuel)
+### Bonus (Emmanuel)
