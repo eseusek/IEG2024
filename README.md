@@ -29,6 +29,7 @@ Implementieren Sie konkret einen Microservice, der aus Skalierungs- und Redundan
 
 ### 4. Implementierung II - Secrets (Emmanuel):
 Implementieren Sie konkret einen Microservice, der für die Kommunikation mit anderen Microservices „Secrets“ benötigt. Beschreiben Sie, wie „Secrets“ bzw. Tokens in einer Microservice-Umgebung verwaltet werden können.
+
 [AUFGABE-4](Doku/Projekt/4.md)
 
 ### 5. Implementierung III – Asynchrones Messaging (Hannes):
