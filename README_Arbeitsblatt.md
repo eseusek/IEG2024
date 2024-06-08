@@ -57,7 +57,7 @@ https://microservices.io/patterns/communication-style/messaging.html
 
 [AUFGABE-4](Doku/Arbeitsblatt/4.md)
 
-### Aufgabe 5 (10 Punkte) (Thomas) -- In Arbeit
+### Aufgabe 5 (10 Punkte) (Thomas) -- Done
 Schreiben Sie ein zusätzliches „Paymentservice“. Dieses Payment-Service soll sowohl JSON, XML-Nachrichten als auch Nachrichten im Format CSV verarbeiten und erzeugen können. Orientieren Sie sich an dem Pattern - HTTP Content Negotiation in REST APIs (restfulapi.net) (10 Punkte)
 
 [AUFGABE-5](Doku/Arbeitsblatt/5.md)
