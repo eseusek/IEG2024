@@ -11,17 +11,17 @@ EXPOSE 80
 # Use the official .NET SDK image to build the app
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["SecretManagementService/SecretManagementService.csproj", "SecretManagementService/"]
-RUN dotnet restore "SecretManagementService/SecretManagementService.csproj"
+COPY ["SecretsConsumerService/SecretsConsumerService.csproj", "SecretsConsumerService/"]
+RUN dotnet restore "SecretsConsumerService/SecretsConsumerService.csproj"
 COPY . .
-WORKDIR "/src/SecretManagementService"
-RUN dotnet build "SecretManagementService.csproj" -c Release -o /app/build
+WORKDIR "/src/SecretsConsumerService"
+RUN dotnet build "SecretsConsumerService.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "SecretManagementService.csproj" -c Release -o /app/publish
+RUN dotnet publish "SecretsConsumerService.csproj" -c Release -o /app/publish
 
 # Use the runtime image as a base image for the final build image
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "SecretManagementService.dll"]
+ENTRYPOINT ["dotnet", "SecretsConsumerService.dll"]
