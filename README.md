@@ -6,17 +6,17 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 
 **Teambezeichnung:** BestProjectTeamInTown
 
-- [ ] Aufgabe 1
-- [ ] Aufgabe 2
-- [ ] Aufgabe 3
-- [ ] Aufgabe 4
-- [ ] Aufgabe 5
-- [ ] Aufgabe 6
-- [ ] Aufgabe 7
-- [ ] Aufgabe 8
-- [ ] Aufgabe 9
-- [ ] Aufgabe 10
-- [ ] Bonus
+- [ ] Aufgabe 1 (Emanuel)
+- [ ] Aufgabe 2 (Emanuel)
+- [ ] Aufgabe 3 (Thomas)
+- [ ] Aufgabe 4 (Emmanuel)
+- [ ] Aufgabe 5 (Hannes)
+- [ ] Aufgabe 6 (Thomas/Andreas)
+- [ ] Aufgabe 7 (Andreas)
+- [ ] Aufgabe 8 (Hannes)
+- [ ] Aufgabe 9 (Alle)
+- [ ] Aufgabe 10 (Alle)
+- [ ] Bonus (Emmanuel)
 
 ### 1. Makro- und Mikro-Architektur (Emanuel):
 Beschreiben Sie die Makro- und Mikro-Architektur Ihrer Lösung zum Thema „most wanTED“.
@@ -33,10 +33,10 @@ Implementieren Sie konkret einen Microservice, der für die Kommunikation mit an
 ### 5. Implementierung III – Asynchrones Messaging (Hannes):
 Implementieren Sie konkret einen Microservice, der asynchrones Messaging einsetzt. Beschreiben Sie die Möglichkeiten bzw. Vor- und Nachteile der asynchronen Kommunikation im Zusammenhang mit Microservices.
 
-### 6. Qualität & Monitoring (Thomas/Andi):
+### 6. Qualität & Monitoring (Thomas/Andreas):
 Entwerfen Sie eine Teststrategie und eine Monitoring-Infrastruktur für das „most wanTED“ Projekt. Behandeln Sie im Bereich Test vor allem Integrationstest und Last- und Performancetests.
 
-### 7. Alternative „Produktempfehlung“ (Andi):
+### 7. Alternative „Produktempfehlung“ (Andreas):
 Überlegen und beschreiben Sie die Möglichkeit des Einsatzes einer Workflow-Engine im Zusammenhang mit der Möglichkeit, „sehr gute Produktplatzierung“ käuflich zu erwerben.
 
 ### 8. Integration eines spezifischen Geschäftsprozesses (Hannes):
