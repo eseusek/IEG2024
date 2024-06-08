@@ -4,7 +4,7 @@
 
 Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flexibel erweiterbare, austauschbare und skalierbare Microservice-Architektur als Erweiterung zur bereits bestehenden Handelsplattform zum Themenbereich „most wanTED“ zu designen, mit Microsoft ASP.NET Core zu entwickeln und in der Microsoft Azure Cloud zu betreiben. „most wanTED“ soll den beteiligten Personen und Organisationen der Handelsplattform (Kunde, Lieferant, Kreditkartenunternehmen) bei der Auswahl von Aspekten wie Produktauswahl, Produktplatzierung, Bezahlvarianten, Benutzeroberflächen, Liefervarianten und weiteren unterstützen.
 
-## Aufgabenverteilung
+**Teambezeichnung:** BestProjectTeamInTown
 
 ### 1. Makro- und Mikro-Architektur (Emanuel):
 Beschreiben Sie die Makro- und Mikro-Architektur Ihrer Lösung zum Thema „most wanTED“.
