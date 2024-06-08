@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsService", "Products
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsFTPService", "ProductsFTPService\ProductsFTPService.csproj", "{0390456C-38E4-4762-AC21-739CA9AB867F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODataService", "ODataService\ODataService.csproj", "{249D5667-294E-4A51-81B1-B421C5FAFBD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataService", "ODataService\ODataService.csproj", "{249D5667-294E-4A51-81B1-B421C5FAFBD7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODataClient", "ODataClient\ODataClient.csproj", "{4F7D54C3-DF05-4A28-806A-B112C58DC45C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataClient", "ODataClient\ODataClient.csproj", "{4F7D54C3-DF05-4A28-806A-B112C58DC45C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretManagementService", "SecretManagementService\SecretManagementService.csproj", "{AEF6BDAA-4282-4B32-87D1-416CF49735B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Services", "Common.Services\Common.Services.csproj", "{A24FB66B-5AC2-4F76-855F-10CA31F40008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogService", "LogService\LogService.csproj", "{8AC4EDF6-7802-43F6-A34F-CDBAF46B76B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +49,14 @@ Global
 		{4F7D54C3-DF05-4A28-806A-B112C58DC45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F7D54C3-DF05-4A28-806A-B112C58DC45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F7D54C3-DF05-4A28-806A-B112C58DC45C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEF6BDAA-4282-4B32-87D1-416CF49735B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEF6BDAA-4282-4B32-87D1-416CF49735B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEF6BDAA-4282-4B32-87D1-416CF49735B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEF6BDAA-4282-4B32-87D1-416CF49735B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24FB66B-5AC2-4F76-855F-10CA31F40008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24FB66B-5AC2-4F76-855F-10CA31F40008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24FB66B-5AC2-4F76-855F-10CA31F40008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24FB66B-5AC2-4F76-855F-10CA31F40008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC4EDF6-7802-43F6-A34F-CDBAF46B76B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC4EDF6-7802-43F6-A34F-CDBAF46B76B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC4EDF6-7802-43F6-A34F-CDBAF46B76B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC4EDF6-7802-43F6-A34F-CDBAF46B76B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
