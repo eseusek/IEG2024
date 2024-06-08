@@ -39,8 +39,6 @@ namespace LogService.Services
                     break;
             }
 
-            Console.WriteLine("######" + request.ToString());
-
             return Task.FromResult(new Empty());
         }
 

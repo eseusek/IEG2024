@@ -71,6 +71,5 @@ namespace Common.Services
             _client.Log(grpcMessage);
         }
 
-        // Implement similar methods for other log levels (LogDebug, LogTrace, etc.)
     }
 }

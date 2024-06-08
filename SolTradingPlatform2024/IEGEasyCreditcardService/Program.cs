@@ -26,7 +26,6 @@ namespace IEGEasyCreditcardService
                     int.Parse(builder.Configuration["MaxAttempts"] ?? "0")));
 
 
-
             // Register RoundRobinSelector
             builder.Services.AddScoped<RoundRobinSelector>(sp =>
             {

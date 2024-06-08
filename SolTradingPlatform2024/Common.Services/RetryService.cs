@@ -14,8 +14,6 @@ namespace Common.Services
         {
             _logger = logger;
             _maxAttempts = maxAttempts;
-
-            _logger.LogInformation("Hello RetryService, here I am");
         }
 
         public T Execute<T>(Func<T> operation)
@@ -35,9 +33,6 @@ namespace Common.Services
                 }
             }
 
-            // This code should never be reached because the catch block throws an exception
-            // after _maxAttempts unsuccessful attempts. However, the compiler doesn't know this,
-            // so it requires a return statement here.
             return default;
         }
     }
