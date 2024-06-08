@@ -6,6 +6,18 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 
 **Teambezeichnung:** BestProjectTeamInTown
 
+- [ ] Aufgabe 1
+- [ ] Aufgabe 2
+- [ ] Aufgabe 3
+- [ ] Aufgabe 4
+- [ ] Aufgabe 5
+- [ ] Aufgabe 6
+- [ ] Aufgabe 7
+- [ ] Aufgabe 8
+- [ ] Aufgabe 9
+- [ ] Aufgabe 10
+- [ ] Bonus
+
 ### 1. Makro- und Mikro-Architektur (Emanuel):
 Beschreiben Sie die Makro- und Mikro-Architektur Ihrer Lösung zum Thema „most wanTED“.
 
