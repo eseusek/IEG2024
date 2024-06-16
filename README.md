@@ -51,3 +51,15 @@ Bereiten Sie die Ergebnisse der Projektarbeit auf und präsentieren Sie diese.
 Erstellen Sie eine funktionierende Gesamtlösung des Projekts „most wanTED“.
 
 ### Bonus (Emmanuel)
+#### A - Einsatz des Saga-Patterns
+Implementieren Sie konkret 1 Microservice welches das Saga Pattern verwendet (als Ersatz für Distributed Transactions). Beschreiben Sie in diesem Zusammenhang auch das Protokoll 2PC – two-phase commit
+https://microservices.io/patterns/data/saga.html
+
+#### B - Konsumieren eines beliebigen Service aus der „Cloud“ 
+Implementieren Sie konkret 1 Microservice welches ein beliebiges „fremdes“ (Cloud)-Service verwendet 
+
+#### C -  Einsatz des CQRS Patterns
+Implementieren Sie konkret 1 Microservice welches das CQRS Pattern verwendet 
+
+#### D -  Einsatz von Event Sourcing 
+Implementieren Sie konkret das Pattern Event Sourcing 
