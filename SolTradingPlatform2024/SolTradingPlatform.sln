@@ -19,15 +19,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Services", "Common.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogService", "LogService\LogService.csproj", "{8AC4EDF6-7802-43F6-A34F-CDBAF46B76B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{F89C7CDE-7C62-4052-89D9-D14A73149307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService", "PaymentService\PaymentService.csproj", "{F89C7CDE-7C62-4052-89D9-D14A73149307}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretManagementService", "SecretManagementService\SecretManagementService.csproj", "{4CAB0AE6-035C-4913-A117-540CB0D94221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretsConsumerService", "SecretsConsumerService\SecretsConsumerService.csproj", "{A8C37C28-E116-4F08-B8EF-69549346132E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretsConsumerService", "SecretsConsumerService\SecretsConsumerService.csproj", "{A8C37C28-E116-4F08-B8EF-69549346132E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{5660E432-A090-4A5C-9FEF-F7056D8B1184}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerReviewService", "CustomerReviewService\CustomerReviewService.csproj", "{F7540B9C-E729-4DDA-82EF-6E91D430DE23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementService", "InventoryManagementService\InventoryManagementService.csproj", "{EA06B6A9-FC24-4CA1-8617-415484185822}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +84,14 @@ Global
 		{A8C37C28-E116-4F08-B8EF-69549346132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C37C28-E116-4F08-B8EF-69549346132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C37C28-E116-4F08-B8EF-69549346132E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7540B9C-E729-4DDA-82EF-6E91D430DE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7540B9C-E729-4DDA-82EF-6E91D430DE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7540B9C-E729-4DDA-82EF-6E91D430DE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7540B9C-E729-4DDA-82EF-6E91D430DE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA06B6A9-FC24-4CA1-8617-415484185822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA06B6A9-FC24-4CA1-8617-415484185822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA06B6A9-FC24-4CA1-8617-415484185822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA06B6A9-FC24-4CA1-8617-415484185822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
