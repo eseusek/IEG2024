@@ -27,6 +27,8 @@ Entwerfen Sie die einzelnen beteiligten Microservices. Verwenden Sie dazu den An
 ### 3. Implementierung I – Discovery & Configuration (Thomas):
 Implementieren Sie konkret einen Microservice, der aus Skalierungs- und Redundanzgründen mehrfach deployed werden kann, und einen weiteren Microservice, der die Dienste dieses mehrfach vorhandenen Microservice nutzt.
 
+[AUFGABE-3](Doku/Projekt/3.md)
+
 ### 4. Implementierung II - Secrets (Emmanuel):
 Implementieren Sie konkret einen Microservice, der für die Kommunikation mit anderen Microservices „Secrets“ benötigt. Beschreiben Sie, wie „Secrets“ bzw. Tokens in einer Microservice-Umgebung verwaltet werden können.
 
