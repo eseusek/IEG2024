@@ -40,6 +40,8 @@ Implementieren Sie konkret einen Microservice, der asynchrones Messaging einsetz
 ### 6. Qualität & Monitoring (Thomas/Andreas):
 Entwerfen Sie eine Teststrategie und eine Monitoring-Infrastruktur für das „most wanTED“ Projekt. Behandeln Sie im Bereich Test vor allem Integrationstest und Last- und Performancetests.
 
+[AUFGABE-6](Doku/Projekt/6.md)
+
 ### 7. Alternative „Produktempfehlung“ (Andreas):
 Überlegen und beschreiben Sie die Möglichkeit des Einsatzes einer Workflow-Engine im Zusammenhang mit der Möglichkeit, „sehr gute Produktplatzierung“ käuflich zu erwerben.
 
