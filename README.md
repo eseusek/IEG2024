@@ -37,6 +37,8 @@ Implementieren Sie konkret einen Microservice, der für die Kommunikation mit an
 ### 5. Implementierung III – Asynchrones Messaging (Hannes):
 Implementieren Sie konkret einen Microservice, der asynchrones Messaging einsetzt. Beschreiben Sie die Möglichkeiten bzw. Vor- und Nachteile der asynchronen Kommunikation im Zusammenhang mit Microservices.
 
+[AUFGABE-3](Doku/Projekt/5.md)
+
 ### 6. Qualität & Monitoring (Thomas/Andreas):
 Entwerfen Sie eine Teststrategie und eine Monitoring-Infrastruktur für das „most wanTED“ Projekt. Behandeln Sie im Bereich Test vor allem Integrationstest und Last- und Performancetests.
 
