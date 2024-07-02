@@ -49,7 +49,7 @@ Entwerfen Sie eine Teststrategie und eine Monitoring-Infrastruktur für das „m
 
 ### 8. Integration eines spezifischen Geschäftsprozesses (Hannes):
 Entwickeln und implementieren Sie ein Konzept für die Integration eines spezifischen Geschäftsprozesses im Zusammenhang mit dem Projekt „most wanTED“ unter dem Einsatz von KI oder Low-Code/No-Code.
-
+[AUFGABE-8](Doku/Projekt/8.md)
 ### 9. Aufbereitung und Präsentation (Alle):
 Bereiten Sie die Ergebnisse der Projektarbeit auf und präsentieren Sie diese.
 
