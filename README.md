@@ -6,8 +6,8 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 
 **Teambezeichnung:** BestProjectTeamInTown
 
-- [ ] Aufgabe 1 (Emanuel)
-- [ ] Aufgabe 2 (Emanuel)
+- [x] Aufgabe 1 (Emanuel)
+- [x] Aufgabe 2 (Emanuel)
 - [x] Aufgabe 3 (Thomas)
 - [x] Aufgabe 4 (Emmanuel)
 - [ ] Aufgabe 5 (Hannes)
