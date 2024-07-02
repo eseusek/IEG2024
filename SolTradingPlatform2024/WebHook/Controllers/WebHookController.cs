@@ -44,7 +44,7 @@ namespace WebHook.Controllers
         public IActionResult Get()
         {
             // Rückgabe aller gespeicherten Bestellungen
-            return Ok(_orders);
+            return Ok(JsonSerializer.Serialize(_orders));
         }
     }
 

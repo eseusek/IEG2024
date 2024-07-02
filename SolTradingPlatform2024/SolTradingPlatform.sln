@@ -34,7 +34,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerReviewService", "Cu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagementService", "InventoryManagementService\InventoryManagementService.csproj", "{EA06B6A9-FC24-4CA1-8617-415484185822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHook", "WebHook\WebHook.csproj", "{624D1EEC-8851-4EE9-B83B-60799815B9A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHook", "WebHook\WebHook.csproj", "{624D1EEC-8851-4EE9-B83B-60799815B9A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHookSubscriber", "WebHookSubscriber\WebHookSubscriber.csproj", "{5054BC41-5F51-421A-9015-03B64B446675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +100,10 @@ Global
 		{624D1EEC-8851-4EE9-B83B-60799815B9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{624D1EEC-8851-4EE9-B83B-60799815B9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{624D1EEC-8851-4EE9-B83B-60799815B9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5054BC41-5F51-421A-9015-03B64B446675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5054BC41-5F51-421A-9015-03B64B446675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5054BC41-5F51-421A-9015-03B64B446675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5054BC41-5F51-421A-9015-03B64B446675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
