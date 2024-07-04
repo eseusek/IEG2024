@@ -14,6 +14,7 @@ namespace CustomerReviewService.Services
 
         public InventoryServiceClient(HttpClient client, ILogger<InventoryServiceClient> logger)
         {
+            // Adresse hardcoded, da der Inventory Service lokal läuft und Service Discovery ein Problem hatte
             client.BaseAddress = new Uri("https://localhost:7262");
             _client = client;
             _logger = logger;
