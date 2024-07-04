@@ -27,7 +27,7 @@ Nehmen Sie in Ihrer Ausführung auch Bezug auf die im Artikel „Microservices a
 - [x] Aufgabe 8 (Emmanuel)
 - [x] Aufgabe 9 (Hannes)
 - [x] Aufgabe 10 (Andreas)
-### Aufgabe 1 (25 Punkte) (Emanuel) -- Done
+### Aufgabe 1 (25 Punkte) (Emanuel)
 **a)** 
 Analyse: Machen Sie sich mit dem Ausgangs-Source-Code „SolTradingPlatform (ohne Polly)“ vertraut. Publizieren Sie die beiden Services „MeiShop“ und „IEGEasyCreditCardService“ in die Microsoft Azure Cloud und testen Sie die Funktionalität. Alternativ können Sie die Projekte natürlich auch onpremise hosten (0 Punkte)
 
@@ -42,27 +42,27 @@ Detailbeschreibung der Datenhaltung – Stichwort: Decentralized Data Management
 
 [AUFGABE-1](Doku/Arbeitsblatt/1.md)
 
-### Aufgabe 2 (10 Punkte) (Emmanuel) -- Done
+### Aufgabe 2 (10 Punkte) (Emmanuel)
 2 weitere Microservice Produktkataloge: Erstellen Sie ein Microservice, welches eine Liste von Produkten anbietet. Der Inhalt der Liste soll dabei aus einem „microservice local datastore“ kommen – (Decentralized Data Management). Ersetzen Sie die hard codierten Werte im MeiShop/ProductList-Controller durch den Aufruf des soeben erstellen Services. Ein weiterer Produktkatalog-Service soll Produkte aus einem Text File auf einem FTP-Server auslesen und zur Verfügung stellen. (10 Punkte)
 
-### Aufgabe 3 (10 Punkte) (Thomas) -- Done
+### Aufgabe 3 (10 Punkte) (Thomas)
 Skalierung, Ausfallssicherheit und Logging (Design for failure) für CreditPaymentService. Detailsbeschreibung: Publizieren Sie das Service „IEGEasyCreditCardService“ mehrfach und rufen Sie die Services im „Round Robin“ Stil auf. Falls es beim Aufruf eines Service zu einem Fehler kommt, soll es eine Retry-Logik geben, außerdem soll der aufgetretene Fehler mit Hilfe eines zentralen Logging-Service (gRPC) protokolliert werden. Nach n erfolglosen Versuchen, soll das nächste Service aufgerufen werden. Recherchieren Sie zusätzlich nach einem geeigneten Framework und Skalierungsmöglichkeiten setzen Sie dieses gegebenenfalls ein (10 Punkte)
 
 [AUFGABE-3](Doku/Arbeitsblatt/3.md)
 
 
-### Aufgabe 4 (10 Punkte) (Emanuel) -- Done
+### Aufgabe 4 (10 Punkte) (Emanuel)
 (theoretische) Überlegungen zum Einsatz von Asynchronen Kommunikationsstilen in der Handelsplattform (10 Punkte)
 https://microservices.io/patterns/communication-style/messaging.html
 
 [AUFGABE-4](Doku/Arbeitsblatt/4.md)
 
-### Aufgabe 5 (10 Punkte) (Thomas) -- Done
+### Aufgabe 5 (10 Punkte) (Thomas)
 Schreiben Sie ein zusätzliches „Paymentservice“. Dieses Payment-Service soll sowohl JSON, XML-Nachrichten als auch Nachrichten im Format CSV verarbeiten und erzeugen können. Orientieren Sie sich an dem Pattern - HTTP Content Negotiation in REST APIs (restfulapi.net) (10 Punkte)
 
 [AUFGABE-5](Doku/Arbeitsblatt/5.md)
 
-### Aufgabe 6 (10 Punkte) (Andreas) -- In Arbeit
+### Aufgabe 6 (10 Punkte) (Andreas)
 (theoretische) Überlegungen zu einem PaymentService-Broker. Dieses Service soll zwischen Shops und Payment-Services „vermitteln“.
 SOA Patterns | Compound Patterns | Service Broker | Arcitura Patterns
 ZA_Deloitte_Digita_Canonical_Schemas.pdf
@@ -73,20 +73,20 @@ Recherchieren Sie dazu zusätzliche Patterns
 
 [AUFGABE-5](Doku/Arbeitsblatt/6.md)
 
-### Aufgabe 7 (10 Punkte) (Hannes) -- Done
+### Aufgabe 7 (10 Punkte) (Hannes)
 Webhook-Subscriber: Überlegen und implementieren Sie ein mögliches Webhook-Szenario (10 Punkte)
 
-### Aufgabe 8 (10 Punkte) (Emmanuel) -- Done
+### Aufgabe 8 (10 Punkte) (Emmanuel)
 Machen Sie sich mit dem Begriff OData vertraut. Überlegen und implementieren Sie ein mögliches OData (Service & Client)-Szenario (10 Punkte)
 
-### Aufgabe 9 (Hier haben wir uns wie besprochen für eine Beschreibung statt einer Implementierung entschieden) (10 Punkte) (Hannes) -- Done
+### Aufgabe 9 (Hier haben wir uns wie besprochen für eine Beschreibung statt einer Implementierung entschieden) (10 Punkte) (Hannes)
 Machen Sie sich mit dem Begriff SAGA-Pattern vertraut. Überlegen und implementieren Sie ein mögliches SAGA-Pattern Szenario(Service & Client)-Szenario 
 
 Umgang mit Ausfallsicherheit –Stichwort: Design for failure / Resilient Software Design (10 Punkte)
 
 [AUFGABE-9](Doku/Arbeitsblatt/9.md)
 
-### Aufgabe 10 (10 Punkte) (Andreas) -- In Arbeit
+### Aufgabe 10 (10 Punkte) (Andreas)
 Machen Sie sich mit dem Begriff „Open Data“ vertraut und beschreiben Sie diesen in einigen wenigen Sätzen. Beschreiben Sie außerdem mögliche Anwendungsfälle im Zusammenhang mit der Handelsplattform
 
 
