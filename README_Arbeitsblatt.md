@@ -25,7 +25,7 @@ Nehmen Sie in Ihrer Ausführung auch Bezug auf die im Artikel „Microservices a
 - [ ] Aufgabe 6 (Andreas)
 - [x] Aufgabe 7 (Hannes)
 - [x] Aufgabe 8 (Emmanuel)
-- [ ] Aufgabe 9 (Hannes)
+- [x] Aufgabe 9 (Hannes)
 - [ ] Aufgabe 10 (Andreas)
 ### Aufgabe 1 (25 Punkte) (Emanuel) -- Done
 **a)** 
@@ -80,6 +80,8 @@ Machen Sie sich mit dem Begriff OData vertraut. Überlegen und implementieren Si
 Machen Sie sich mit dem Begriff SAGA-Pattern vertraut. Überlegen und implementieren Sie ein mögliches SAGA-Pattern Szenario(Service & Client)-Szenario 
 
 Umgang mit Ausfallsicherheit –Stichwort: Design for failure / Resilient Software Design (10 Punkte)
+
+[AUFGABE-9](Doku/Arbeitsblatt/9.md)
 
 ### Aufgabe 10 (10 Punkte) (Andreas) -- In Arbeit
 Machen Sie sich mit dem Begriff „Open Data“ vertraut und beschreiben Sie diesen in einigen wenigen Sätzen. Beschreiben Sie außerdem mögliche Anwendungsfälle im Zusammenhang mit der Handelsplattform
