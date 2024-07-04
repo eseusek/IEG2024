@@ -58,7 +58,7 @@ Entwickeln und implementieren Sie ein Konzept für die Integration eines spezifi
 ### 9. Aufbereitung und Präsentation (Alle):
 Bereiten Sie die Ergebnisse der Projektarbeit auf und präsentieren Sie diese.
 
-### 10. Funktionierende Gesamtlösung (Alle):
+### 10. Funktionierende Gesamtlösung (Emmanuel/Thomas):
 Erstellen Sie eine funktionierende Gesamtlösung des Projekts „most wanTED“.
 
 ### Bonus (Emmanuel)
