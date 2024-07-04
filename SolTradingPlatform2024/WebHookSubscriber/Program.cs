@@ -18,7 +18,7 @@ namespace WebHookSubscriber
 
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Subscriber Beispiel (alle 30 Sekunden)");
+            Console.WriteLine("Subscriber Beispiel (alle 10 Sekunden)");
 
             string url = "https://localhost:7099/api/webhook";
 
@@ -26,7 +26,7 @@ namespace WebHookSubscriber
             {
                 // GitHub API benötigt einen User-Agent Header
                 client.DefaultRequestHeaders.Add("User-Agent", "C# App");
-
+                var counter = 0;
                 while (true)
                 {
                     try
@@ -47,11 +47,17 @@ namespace WebHookSubscriber
                                 {
                                     if (!processedOrderIds.Contains(order.OrderId))
                                     {
+                                        counter++;
                                         Console.WriteLine("Neue Order eingegangen:");
                                         Console.WriteLine($"OrderId: {order.OrderId}, Product: {order.Product}, Quantity: {order.Quantity}");
                                         processedOrderIds.Add(order.OrderId);
                                     }
                                 }
+                            if (counter == 0)
+                            {
+                                Console.WriteLine("Keine neuen Orders eingegangen!");
+                            }
+                            counter = 0;
                         }
                         
                     }
