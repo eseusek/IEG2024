@@ -15,7 +15,7 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 - [ ] Aufgabe 7 (Andreas)
 - [x] Aufgabe 8 (Hannes)
 - [ ] Aufgabe 9 (Alle)
-- [ ] Aufgabe 10 (Alle)
+- [x] Aufgabe 10 (Alle)
 
 ### 1. Makro- und Mikro-Architektur (Emanuel):
 Beschreiben Sie die Makro- und Mikro-Architektur Ihrer Lösung zum Thema „most wanTED“.
