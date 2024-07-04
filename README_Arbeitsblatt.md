@@ -70,7 +70,7 @@ http://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataMod
  
 Recherchieren Sie dazu zusätzliche Patterns
 
-### Aufgabe 7 (10 Punkte) (Hannes) -- In Arbeit
+### Aufgabe 7 (10 Punkte) (Hannes) -- Done
 Webhook-Subscriber: Überlegen und implementieren Sie ein mögliches Webhook-Szenario (10 Punkte)
 
 ### Aufgabe 8 (10 Punkte) (Emmanuel) -- Done
