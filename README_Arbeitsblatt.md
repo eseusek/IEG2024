@@ -76,7 +76,7 @@ Webhook-Subscriber: Überlegen und implementieren Sie ein mögliches Webhook-Sze
 ### Aufgabe 8 (10 Punkte) (Emmanuel) -- Done
 Machen Sie sich mit dem Begriff OData vertraut. Überlegen und implementieren Sie ein mögliches OData (Service & Client)-Szenario (10 Punkte)
 
-### Aufgabe 9 (Hier haben wir uns wie besprochen für eine Beschreibung statt einer Implementierung entschieden) (10 Punkte) (Hannes) -- In Arbeit
+### Aufgabe 9 (Hier haben wir uns wie besprochen für eine Beschreibung statt einer Implementierung entschieden) (10 Punkte) (Hannes) -- Done
 Machen Sie sich mit dem Begriff SAGA-Pattern vertraut. Überlegen und implementieren Sie ein mögliches SAGA-Pattern Szenario(Service & Client)-Szenario 
 
 Umgang mit Ausfallsicherheit –Stichwort: Design for failure / Resilient Software Design (10 Punkte)
