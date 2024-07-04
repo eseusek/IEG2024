@@ -20,8 +20,12 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 ### 1. Makro- und Mikro-Architektur (Emanuel):
 Beschreiben Sie die Makro- und Mikro-Architektur Ihrer Lösung zum Thema „most wanTED“.
 
+[AUFGABE-1](Doku/Projekt/1.md)
+
 ### 2. Design (Emanuel):
 Entwerfen Sie die einzelnen beteiligten Microservices. Verwenden Sie dazu den Ansatz „Domain Driven Design“.
+
+[AUFGABE-2](Doku/Projekt/2.md)
 
 ### 3. Implementierung I – Discovery & Configuration (Thomas):
 Implementieren Sie konkret einen Microservice, der aus Skalierungs- und Redundanzgründen mehrfach deployed werden kann, und einen weiteren Microservice, der die Dienste dieses mehrfach vorhandenen Microservice nutzt.
