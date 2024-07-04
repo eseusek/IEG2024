@@ -22,11 +22,11 @@ Nehmen Sie in Ihrer Ausführung auch Bezug auf die im Artikel „Microservices a
 - [x] Aufgabe 3 (Thomas)
 - [x] Aufgabe 4 (Emanuel)
 - [x] Aufgabe 5 (Thomas)
-- [ ] Aufgabe 6 (Andreas)
+- [x] Aufgabe 6 (Andreas)
 - [x] Aufgabe 7 (Hannes)
 - [x] Aufgabe 8 (Emmanuel)
 - [x] Aufgabe 9 (Hannes)
-- [ ] Aufgabe 10 (Andreas)
+- [x] Aufgabe 10 (Andreas)
 ### Aufgabe 1 (25 Punkte) (Emanuel) -- Done
 **a)** 
 Analyse: Machen Sie sich mit dem Ausgangs-Source-Code „SolTradingPlatform (ohne Polly)“ vertraut. Publizieren Sie die beiden Services „MeiShop“ und „IEGEasyCreditCardService“ in die Microsoft Azure Cloud und testen Sie die Funktionalität. Alternativ können Sie die Projekte natürlich auch onpremise hosten (0 Punkte)
