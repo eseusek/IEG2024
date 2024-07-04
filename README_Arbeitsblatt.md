@@ -70,6 +70,9 @@ http://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataMod
  
 Recherchieren Sie dazu zusätzliche Patterns
 
+
+[AUFGABE-5](Doku/Arbeitsblatt/6.md)
+
 ### Aufgabe 7 (10 Punkte) (Hannes) -- Done
 Webhook-Subscriber: Überlegen und implementieren Sie ein mögliches Webhook-Szenario (10 Punkte)
 
@@ -85,3 +88,6 @@ Umgang mit Ausfallsicherheit –Stichwort: Design for failure / Resilient Softwa
 
 ### Aufgabe 10 (10 Punkte) (Andreas) -- In Arbeit
 Machen Sie sich mit dem Begriff „Open Data“ vertraut und beschreiben Sie diesen in einigen wenigen Sätzen. Beschreiben Sie außerdem mögliche Anwendungsfälle im Zusammenhang mit der Handelsplattform
+
+
+[AUFGABE-5](Doku/Arbeitsblatt/10.md)
