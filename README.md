@@ -20,7 +20,7 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 ### 1. Makro- und Mikro-Architektur (Emanuel):
 Beschreiben Sie die Makro- und Mikro-Architektur Ihrer Lösung zum Thema „most wanTED“.
 
-[AUFGABE-1](Doku/Projekt/1.png)
+[AUFGABE-1](Doku/Projekt/media/1.png)
 
 ### 2. Design (Emanuel):
 Entwerfen Sie die einzelnen beteiligten Microservices. Verwenden Sie dazu den Ansatz „Domain Driven Design“.
