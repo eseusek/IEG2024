@@ -11,8 +11,8 @@ Das Ziel der Projektarbeit im Rahmen dieser Vorlesung ist es, eine moderne, flex
 - [x] Aufgabe 3 (Thomas)
 - [x] Aufgabe 4 (Emmanuel)
 - [x] Aufgabe 5 (Hannes)
-- [ ] Aufgabe 6 (Thomas/Andreas)
-- [ ] Aufgabe 7 (Andreas)
+- [x] Aufgabe 6 (Thomas/Andreas)
+- [x] Aufgabe 7 (Andreas)
 - [x] Aufgabe 8 (Hannes)
 - [ ] Aufgabe 9 (Alle)
 - [ ] Aufgabe 10 (Alle)
@@ -49,6 +49,8 @@ Entwerfen Sie eine Teststrategie und eine Monitoring-Infrastruktur für das „m
 
 ### 7. Alternative „Produktempfehlung“ (Andreas):
 Überlegen und beschreiben Sie die Möglichkeit des Einsatzes einer Workflow-Engine im Zusammenhang mit der Möglichkeit, „sehr gute Produktplatzierung“ käuflich zu erwerben.
+
+[AUFGABE-7](Doku/Projekt/7.md)
 
 ### 8. Integration eines spezifischen Geschäftsprozesses (Hannes):
 Entwickeln und implementieren Sie ein Konzept für die Integration eines spezifischen Geschäftsprozesses im Zusammenhang mit dem Projekt „most wanTED“ unter dem Einsatz von KI oder Low-Code/No-Code.
